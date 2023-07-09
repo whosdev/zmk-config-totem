@@ -1,7 +1,7 @@
-if SHIELD_TENAXOLED_LEFT
+if SHIELD_TENAX-XIAO_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "tenaxoled"
+	default "tenax-xiao"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
@@ -9,15 +9,15 @@ config ZMK_SPLIT_BLE_ROLE_CENTRAL
 endif
 
 
-if SHIELD_TENAXOLED_RIGHT
+if SHIELD_TENAX-XIAO_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "tenaxoled Right"
+	default "tenax-xiao Right"
 	
 endif
 
 
-if SHIELD_TENAXOLED_LEFT || SHIELD_TENAXOLED_RIGHT
+if SHIELD_TENAX-XIAO_LEFT || SHIELD_TENAX-XIAO_RIGHT
 
 config ZMK_SPLIT
 	default y
