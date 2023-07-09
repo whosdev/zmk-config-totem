@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_TENAX-XIAO_LEFT
-	def_bool $(shields_list_contains,tenaxoled_left)
+	def_bool $(shields_list_contains,tenax-xiao_left)
 
 config SHIELD_TENAX-XIAO_RIGHT
-	def_bool $(shields_list_contains,tenaxoled_right)
+	def_bool $(shields_list_contains,tenax-xiao_right)
