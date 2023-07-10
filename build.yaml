@@ -1,6 +1,6 @@
 include:
   - board: seeeduino_xiao_ble
-    shield: tenax-xiao_left
+    shield: tenax_xiao_left
   - board: seeeduino_xiao_ble
-    shield: tenax-xiao_right
+    shield: tenax_xiao_right
 # there is no settingsreset (needed) for the XIAO
