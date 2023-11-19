@@ -1,6 +1,6 @@
 include:
-  - board: seeeduino_xiao_ble
-    shield: tenax_xiao_left
-  - board: seeeduino_xiao_ble
-    shield: tenax_xiao_right
+  - board: nice_nano_v2
+    shield: tps40_left
+  - board: nice_nano_v2
+    shield: tps40_right
 # there is no settingsreset (needed) for the XIAO
